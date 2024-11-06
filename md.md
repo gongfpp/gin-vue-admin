@@ -35,5 +35,10 @@ I：Idle，空闲状态（通常表示内核线程）。
 W：Paging，进程正在等待内存交换（Page Out）。
 
 
+## git config 
+git config --global http.postBuffer 524288000  # 增加缓冲区大小
+git config --global http.lowSpeedLimit 0       # 禁用低速限制
+git config --global http.lowSpeedTime 999999   # 设置超长的低速请求时间
 
-
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com" #

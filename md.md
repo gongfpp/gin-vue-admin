@@ -42,3 +42,10 @@ git config --global http.lowSpeedTime 999999   # 设置超长的低速请求时�
 
 git config --global user.name "Your Name"
 git config --global user.email "your-email@example.com" #
+
+
+## tmux
+查看所有会话：tmux ls
+连接到某个会话：tmux attach-session -t 会话名称
+强制连接：tmux attach-session -t 会话名称 -d
+只有一个会话时直接连接：tmux attach

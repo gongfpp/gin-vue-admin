@@ -12,5 +12,10 @@ else
     echo "Failed to deploy at $(date)" >> "$LOG_FILE"
 fi
 
+# 日志换行
+echo -e "\n"
+
 # 重新部署服务器
+
+# 重新部署前端
 

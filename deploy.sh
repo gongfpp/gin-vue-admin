@@ -10,14 +10,14 @@ LOG_FILE="deploy.log"
 echo "Pulling latest changes from main branch..." >> "$LOG_FILE"
 if git pull origin main 2>&1 | tee -a "$LOG_FILE"; then
     # 如果部署成功，记录成功日志
-    echo "Deployed successfully at $(date) \n" >> "$LOG_FILE"
+    echo "Deployed successfully at $(date)  " >> "$LOG_FILE"
 else
     # 如果部署失败，记录失败日志
-    echo "Failed to deploy at $(date) \n" >> "$LOG_FILE"
+    echo "Failed to deploy at $(date)  " >> "$LOG_FILE"
 fi
 
 # 在日志文件中添加换行
-# echo -e "\n" >> "$LOG_FILE"
+echo -e "\n" >> "$LOG_FILE"
 
 # 重新部署服务器
 

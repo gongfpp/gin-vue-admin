@@ -1,3 +1,14 @@
+# TODO 
+webhook自动部署后端服务
+
+
+# DONE 
+AI环境配置
+本地、WSL、云服务器通过密钥链接GitHub
+webhooks配置自动化update云服务器代码
+
+
+
 # 学习笔记
 ## ps -aux 输出的字段含义：
 字段	含义

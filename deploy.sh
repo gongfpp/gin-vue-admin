@@ -17,7 +17,8 @@ else
 fi
 
 # 在日志文件中添加换行
-echo -e "" >> "$LOG_FILE"
+echo -e "
+" >> "$LOG_FILE"
 
 # 重新部署服务器
 
